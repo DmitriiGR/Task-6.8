@@ -9,15 +9,11 @@ textInput.addEventListener('input', (e) => {
 });
 
 clickButton.addEventListener('click', (e) => {
-    console.log('') = textInput;
-    textInput.value ='';
-    textForm.value ='';
-    e.preventDefault();
+ e.preventDefault();
+ console.log(textInput.value)
+ textInput.value ='';
+ textForm.value ='';
+
 });
-
-
-
-
-
 
 
